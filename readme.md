@@ -2,7 +2,7 @@
 
 1. **Load up [Jerkmate Ranked](https://jerkmate.com/jerkmate-ranked)**
 2. **Open the Developer Console of your browser, and paste the script below:**
-  ```
+  ```js
 const a = document.querySelector("video[poster='/ui-contents/idleposter.jpg']"); setInterval(() => a.click(), 1);
 const config = {
     interval: 10,
@@ -26,7 +26,7 @@ setInterval(main, config.interval);
 
 3. **Profit**
 
-    You are now at the top of Jerkmate Ranked. Go flex!
+    You are now at the top of Jerkmate Ranked. Go fap!
 
 
 ## Credits
