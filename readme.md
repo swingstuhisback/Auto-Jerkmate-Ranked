@@ -3,9 +3,8 @@
 1. **Load up [Jerkmate Ranked](https://jerkmate.com/jerkmate-ranked)**
 2. **Open the Developer Console of your browser, and paste the script below:**
   ```js
-const a = document.querySelector("video[poster='/ui-contents/idleposter.jpg']"); setInterval(() => a.click(), 1);
 const config = {
-    interval: 10,
+    interval: 1,
     video: document.querySelector("video[poster='/ui-contents/idleposter.jpg']"),
     buttons: Array.from(document.querySelectorAll("button.buttonBuy"))
 };
